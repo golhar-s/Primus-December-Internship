@@ -7,25 +7,26 @@ This assignment provides three CSV datasets: Interns, Projects, Evaluations, alo
 ⸻
 
 🚀 What You Must Do
+
 	1.	Create a new branch in the provided repository and store all your code in that branch.
 	2.	Import the CSVs into PostgreSQL and implement the correct relationships:
-	•	Intern (1) → (many) Projects
-	•	Intern (1) → (many) Evaluations
-	•	Project (1) → (many) Evaluations
+		•	Intern (1) → (many) Projects
+		•	Intern (1) → (many) Evaluations
+		•	Project (1) → (many) Evaluations
 	3.	Build a .NET Web API with endpoints to fetch:
-	•	Intern details + owned projects + evaluations
-	•	Project details + interns + evaluations
-	•	Evaluations filtered by criteria
+		•	Intern details + owned projects + evaluations
+		•	Project details + interns + evaluations
+		•	Evaluations filtered by criteria
 	4.	Build a React frontend with 3 input pages:
-	•	Page 1: Intern Details
-Inputs → intern_id, name, email, degree, university, graduation year
-Output → Fetch intern details from API (accordion view)
-	•	Page 2: Project Details
-Inputs → project fields
-Output → Project info + interns involved + evaluations
-	•	Page 3: Evaluation Criteria
-Inputs → evaluation filters (score, evaluator, dates, nested project fields)
-Output → Matching projects + interns
+		•	Page 1: Intern Details
+				Inputs → intern_id, name, email, degree, university, graduation year
+				Output → Fetch intern details from API (accordion view)
+		•	Page 2: Project Details
+				Inputs → project fields
+				Output → Project info + interns involved + evaluations
+		•	Page 3: Evaluation Criteria
+				Inputs → evaluation filters (score, evaluator, dates, nested project fields)
+				Output → Matching projects + interns
 	5.	Show results cleanly using tables/accordions. Add loading/error messages.
 
 
