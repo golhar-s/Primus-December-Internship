@@ -28,14 +28,15 @@ Inputs → evaluation filters (score, evaluator, dates, nested project fields)
 Output → Matching projects + interns
 	5.	Show results cleanly using tables/accordions. Add loading/error messages.
 
-⸻
+
 
 🗂 Expected Tech Stack
+
 	•	Frontend: React (functional components + Hooks, axios, simple CSS)
 	•	Backend: .NET Web API
 	•	Database: PostgreSQL
 
-⸻
+
 
 📁 Suggested Folder Structure
 ```
@@ -49,6 +50,7 @@ Output → Matching projects + interns
 ⸻
 
 ✔ Minimum Requirements
+
 	•	Correct PostgreSQL schema + imported CSV data
 	•	Working API endpoints
 	•	Working React UI for 3 pages
@@ -58,6 +60,7 @@ Output → Matching projects + interns
 ⸻
 
 📌 Submission
+
 	•	Do NOT commit to main.
 	•	Create a separate branch and push all your work there.
 
