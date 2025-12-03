@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Primus-December-Internship", "Primus-December-Internship", "{622C9C13-827B-3662-C039-D5BF1FAF056A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{0939E039-7194-CCE0-F088-DBBF7DAA4012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternshipAPI", "Primus-December-Internship\backend\InternshipAPI\InternshipAPI.csproj", "{A25C1C91-9DA9-AE00-EE11-85ACBD5DFC11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A25C1C91-9DA9-AE00-EE11-85ACBD5DFC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25C1C91-9DA9-AE00-EE11-85ACBD5DFC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25C1C91-9DA9-AE00-EE11-85ACBD5DFC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25C1C91-9DA9-AE00-EE11-85ACBD5DFC11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0939E039-7194-CCE0-F088-DBBF7DAA4012} = {622C9C13-827B-3662-C039-D5BF1FAF056A}
+		{A25C1C91-9DA9-AE00-EE11-85ACBD5DFC11} = {0939E039-7194-CCE0-F088-DBBF7DAA4012}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8705974-0E78-4FDA-AE31-6C5A5EA14FD1}
+	EndGlobalSection
+EndGlobal
